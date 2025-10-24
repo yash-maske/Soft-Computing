@@ -34,6 +34,8 @@ void print_canonical(vector<float> & canonical,int Np_no){
     }
 }
 int main(){
+
+    
 vector<float> fitness = {1.01,2.11,3.11,4.01,1.91,1.93,4.51};
 float F_bar = calulate_F_bar(fitness);
 canonical(fitness,F_bar);
